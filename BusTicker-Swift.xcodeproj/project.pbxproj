@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D3BA3D1C0504E80027D048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D3BA3C1C0504E80027D048 /* AppDelegate.swift */; };
+		26D3BA3F1C0504E80027D048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D3BA3E1C0504E80027D048 /* ViewController.swift */; };
+		26D3BA421C0504E80027D048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D3BA401C0504E80027D048 /* Main.storyboard */; };
+		26D3BA441C0504E80027D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26D3BA431C0504E80027D048 /* Assets.xcassets */; };
+		26D3BA471C0504E80027D048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26D3BA451C0504E80027D048 /* LaunchScreen.storyboard */; };
+		26D3BA521C0504E80027D048 /* BusTicker_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D3BA511C0504E80027D048 /* BusTicker_SwiftTests.swift */; };
+		26D3BA5D1C0504E80027D048 /* BusTicker_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D3BA5C1C0504E80027D048 /* BusTicker_SwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26D3BA4E1C0504E80027D048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D3BA311C0504E80027D048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D3BA381C0504E80027D048;
+			remoteInfo = "BusTicker-Swift";
+		};
+		26D3BA591C0504E80027D048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26D3BA311C0504E80027D048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26D3BA381C0504E80027D048;
+			remoteInfo = "BusTicker-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26D3BA391C0504E80027D048 /* BusTicker-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BusTicker-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D3BA3C1C0504E80027D048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26D3BA3E1C0504E80027D048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26D3BA411C0504E80027D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26D3BA431C0504E80027D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D3BA461C0504E80027D048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26D3BA481C0504E80027D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D3BA4D1C0504E80027D048 /* BusTicker-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BusTicker-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D3BA511C0504E80027D048 /* BusTicker_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTicker_SwiftTests.swift; sourceTree = "<group>"; };
+		26D3BA531C0504E80027D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D3BA581C0504E80027D048 /* BusTicker-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BusTicker-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26D3BA5C1C0504E80027D048 /* BusTicker_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusTicker_SwiftUITests.swift; sourceTree = "<group>"; };
+		26D3BA5E1C0504E80027D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26D3BA361C0504E80027D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA4A1C0504E80027D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA551C0504E80027D048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D3BA301C0504E80027D048 = {
+			isa = PBXGroup;
+			children = (
+				26D3BA3B1C0504E80027D048 /* BusTicker-Swift */,
+				26D3BA501C0504E80027D048 /* BusTicker-SwiftTests */,
+				26D3BA5B1C0504E80027D048 /* BusTicker-SwiftUITests */,
+				26D3BA3A1C0504E80027D048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26D3BA3A1C0504E80027D048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26D3BA391C0504E80027D048 /* BusTicker-Swift.app */,
+				26D3BA4D1C0504E80027D048 /* BusTicker-SwiftTests.xctest */,
+				26D3BA581C0504E80027D048 /* BusTicker-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26D3BA3B1C0504E80027D048 /* BusTicker-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				26D3BA3C1C0504E80027D048 /* AppDelegate.swift */,
+				26D3BA3E1C0504E80027D048 /* ViewController.swift */,
+				26D3BA401C0504E80027D048 /* Main.storyboard */,
+				26D3BA431C0504E80027D048 /* Assets.xcassets */,
+				26D3BA451C0504E80027D048 /* LaunchScreen.storyboard */,
+				26D3BA481C0504E80027D048 /* Info.plist */,
+			);
+			path = "BusTicker-Swift";
+			sourceTree = "<group>";
+		};
+		26D3BA501C0504E80027D048 /* BusTicker-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				26D3BA511C0504E80027D048 /* BusTicker_SwiftTests.swift */,
+				26D3BA531C0504E80027D048 /* Info.plist */,
+			);
+			path = "BusTicker-SwiftTests";
+			sourceTree = "<group>";
+		};
+		26D3BA5B1C0504E80027D048 /* BusTicker-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26D3BA5C1C0504E80027D048 /* BusTicker_SwiftUITests.swift */,
+				26D3BA5E1C0504E80027D048 /* Info.plist */,
+			);
+			path = "BusTicker-SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26D3BA381C0504E80027D048 /* BusTicker-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D3BA611C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-Swift" */;
+			buildPhases = (
+				26D3BA351C0504E80027D048 /* Sources */,
+				26D3BA361C0504E80027D048 /* Frameworks */,
+				26D3BA371C0504E80027D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BusTicker-Swift";
+			productName = "BusTicker-Swift";
+			productReference = 26D3BA391C0504E80027D048 /* BusTicker-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26D3BA4C1C0504E80027D048 /* BusTicker-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D3BA641C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-SwiftTests" */;
+			buildPhases = (
+				26D3BA491C0504E80027D048 /* Sources */,
+				26D3BA4A1C0504E80027D048 /* Frameworks */,
+				26D3BA4B1C0504E80027D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D3BA4F1C0504E80027D048 /* PBXTargetDependency */,
+			);
+			name = "BusTicker-SwiftTests";
+			productName = "BusTicker-SwiftTests";
+			productReference = 26D3BA4D1C0504E80027D048 /* BusTicker-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		26D3BA571C0504E80027D048 /* BusTicker-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26D3BA671C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-SwiftUITests" */;
+			buildPhases = (
+				26D3BA541C0504E80027D048 /* Sources */,
+				26D3BA551C0504E80027D048 /* Frameworks */,
+				26D3BA561C0504E80027D048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26D3BA5A1C0504E80027D048 /* PBXTargetDependency */,
+			);
+			name = "BusTicker-SwiftUITests";
+			productName = "BusTicker-SwiftUITests";
+			productReference = 26D3BA581C0504E80027D048 /* BusTicker-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26D3BA311C0504E80027D048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "SmallSharpTools LLC";
+				TargetAttributes = {
+					26D3BA381C0504E80027D048 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					26D3BA4C1C0504E80027D048 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 26D3BA381C0504E80027D048;
+					};
+					26D3BA571C0504E80027D048 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 26D3BA381C0504E80027D048;
+					};
+				};
+			};
+			buildConfigurationList = 26D3BA341C0504E80027D048 /* Build configuration list for PBXProject "BusTicker-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26D3BA301C0504E80027D048;
+			productRefGroup = 26D3BA3A1C0504E80027D048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26D3BA381C0504E80027D048 /* BusTicker-Swift */,
+				26D3BA4C1C0504E80027D048 /* BusTicker-SwiftTests */,
+				26D3BA571C0504E80027D048 /* BusTicker-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26D3BA371C0504E80027D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D3BA471C0504E80027D048 /* LaunchScreen.storyboard in Resources */,
+				26D3BA441C0504E80027D048 /* Assets.xcassets in Resources */,
+				26D3BA421C0504E80027D048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA4B1C0504E80027D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA561C0504E80027D048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26D3BA351C0504E80027D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D3BA3F1C0504E80027D048 /* ViewController.swift in Sources */,
+				26D3BA3D1C0504E80027D048 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA491C0504E80027D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D3BA521C0504E80027D048 /* BusTicker_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D3BA541C0504E80027D048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D3BA5D1C0504E80027D048 /* BusTicker_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26D3BA4F1C0504E80027D048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D3BA381C0504E80027D048 /* BusTicker-Swift */;
+			targetProxy = 26D3BA4E1C0504E80027D048 /* PBXContainerItemProxy */;
+		};
+		26D3BA5A1C0504E80027D048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26D3BA381C0504E80027D048 /* BusTicker-Swift */;
+			targetProxy = 26D3BA591C0504E80027D048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26D3BA401C0504E80027D048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D3BA411C0504E80027D048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26D3BA451C0504E80027D048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26D3BA461C0504E80027D048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26D3BA5F1C0504E80027D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26D3BA601C0504E80027D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26D3BA621C0504E80027D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BusTicker-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		26D3BA631C0504E80027D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BusTicker-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		26D3BA651C0504E80027D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BusTicker-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTicker-Swift.app/BusTicker-Swift";
+			};
+			name = Debug;
+		};
+		26D3BA661C0504E80027D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "BusTicker-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusTicker-Swift.app/BusTicker-Swift";
+			};
+			name = Release;
+		};
+		26D3BA681C0504E80027D048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BusTicker-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BusTicker-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		26D3BA691C0504E80027D048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BusTicker-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smallsharptools.BusTicker-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "BusTicker-Swift";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26D3BA341C0504E80027D048 /* Build configuration list for PBXProject "BusTicker-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D3BA5F1C0504E80027D048 /* Debug */,
+				26D3BA601C0504E80027D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26D3BA611C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D3BA621C0504E80027D048 /* Debug */,
+				26D3BA631C0504E80027D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D3BA641C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D3BA651C0504E80027D048 /* Debug */,
+				26D3BA661C0504E80027D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		26D3BA671C0504E80027D048 /* Build configuration list for PBXNativeTarget "BusTicker-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D3BA681C0504E80027D048 /* Debug */,
+				26D3BA691C0504E80027D048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26D3BA311C0504E80027D048 /* Project object */;
+}
